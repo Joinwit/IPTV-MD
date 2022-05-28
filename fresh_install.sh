@@ -16,7 +16,7 @@ rm -rf ~/ffmpeg*  > /dev/null
 cd /tmp > /dev/null
 rm -rf /tmp/* > /dev/null
 echo "FOS-Streaming V2 -> Install Web Platform"
-wget -q https://raw.githubusercontent.com/micky4966/IPTV-MD/master/install_panel.php -O install_panel.php > /dev/null
+wget -q https://raw.githubusercontent.com/Joinwit/IPTV-MD/master/install_panel.php -O install_panel.php > /dev/null
 /usr/bin/php install_panel.php
 echo "FOS-Streaming V2 -> Install Database "
 wget -q https://raw.githubusercontent.com/Joinwit/IPTV-MD/master/db_install.sh -O db_install.sh > /dev/null 
